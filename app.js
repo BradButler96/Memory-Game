@@ -18,7 +18,7 @@ if (startBtn) {
     startBtn.addEventListener('click', function() {
         console.log(pairCount.value);
         localStorage.setItem('pairCount', pairCount.value);
-        window.location.href = 'index.html';
+        window.location.href = 'game.html';
     });
 
 } else {
