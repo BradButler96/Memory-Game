@@ -1,0 +1,56 @@
+#start {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#pairs {
+    color: #EFEBE0;
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+input {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+body {background-color: #353839;}
+
+h1 {color: #EFEBE0;}
+
+#guesscount {
+    color: #EFEBE0;
+    display: inline;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+#lowestscore {
+    color: #EFEBE0;
+    display: inline;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+
+#game div {
+    border: 3px solid #EFEBE0;
+    width: 15%;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+
